@@ -25,10 +25,10 @@
 ![](./evidences/3.png)
 
 ## Bargraph of the politics catagory
-![](./evidences/bargraph1.png)
+![](./evidences/bargraph1.PNG)
 
 ## Wordcloud of the environment catagory
-![](./evidences/wordcloud3.png)
+![](./evidences/wordcloud3.PNG)
 
 - On the other hand, there are some evidences that can be seen inside the project, so please run the project with the following steps:
 
