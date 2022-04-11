@@ -35,6 +35,7 @@
 #### Instructions
 
 + Clone this repository
++ If you use MACOS please in the 8th command block erase the '.exe' from the line "DRIVER_PATH = './geckodriver.exe' "
 + Open a command line console and go inside the repo's directory and run the command "jupyter lab"
 ![](./evidences/comandoJL.png)
 + Run each code block (you need to have the mongoDB service running) to the end. 
