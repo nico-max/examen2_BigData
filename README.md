@@ -1,25 +1,22 @@
-# Web-Scrapping and NLP Analysis (Workshop 2)
+# Web-Scrapping (Test 2)
 
 ## Members:
+- Garnica Ortiz Diego Fernando
 - León Vargas Boris Nicolas
 - Losada Ordoñez Mateo Alejandro
 
 
-## Youtube Video:
-- https://youtu.be/GVkfft6kidI
-
-
 ## High-level functionality
 
-- This code uses an algorith with PySpark implementing web-scrapping in the website of "EL ESPECTADOR" to apply Natural Languaje Processing (NLP) to the content of the news founded in different pages using 5 different categories (politics, technology, environment, health, education).
+- This code uses an algorith with PySpark implementing web-scrapping in the website of "Alianza verde" to get the content of the senate candidate's cards 
 
-- We made a fork of the repo to start the process and made some changes to the "default" code, implementing functions seen in the last sessions.
+- We made a fork of the repo to start the process and made some changes to the NLP workshop's code, implementing functions seen in the last sessions.
 
-- First there is the process of web scrapping in which we made the same process of searching news depending on the category, so we used a time limit of 2 weeks and collected data from all the news in this last 2 weeks like the title, the author and the content of the new. After that we saved that data in  MongoDB as independant registers.
+- First there is the process of web scrapping in which we made the same process of searching information about the candidates for the senate, like image URL, the description and the social networks.
 
-- After that, we read the data base and started the NLP based on the different categories, so we filtered the news saved on the data base by category and made all the process of word tokenization, word distribution avoiding the stop words in spanish to finally build the graph and plot of each distribution.
+- After that, all the data were stored in an array called 'candidates'
 
-- Also you can see some of the evidences of the news saved on the database and the plots and diagrams in the directoy of 'evidences' like this:
+- Also you can see some of the evidences of the candidate information collected in the directoy of 'evidences' like this:
 
 ## News saved on the MongoDB Database
 ![](./evidences/3.png)
@@ -37,6 +34,4 @@
 + Clone this repository
 + If you use MACOS please in the 8th command block erase the '.exe' from the line "DRIVER_PATH = './geckodriver.exe' "
 + Open a command line console and go inside the repo's directory and run the command "jupyter lab"
-![](./evidences/comandoJL.png)
-+ Run each code block (you need to have the mongoDB service running) to the end. 
-+ There are the graphics and the results of the program.
++ Run each code block to the end.D
